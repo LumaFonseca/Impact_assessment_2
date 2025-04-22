@@ -124,7 +124,8 @@ def evaluate_criteria(description: str) -> Dict[str, Dict[str, str | int]]:
         "moderate species variety", "moderate specie variety", "balanced variety", "curated but not overly complex", "moderate to diverse",
         "some species variety", "moderate mix", "some plant diversity", "fair variety", "not overly complex palette",
         "species variety is moderate", "species variety across the space is moderate", "the species variety is moderate",
-        "species variety across the space is low","species variety appears moderate"
+        "species variety across the space is low","species variety appears moderate", "moderate to diverse", "moderate range of species",
+        "somewhat diverse", "plant mix is moderate"
     ]
     high_matched, high_negated = keyword_matches(high_variety)
     mod_matched, mod_negated = keyword_matches(moderate_variety)
@@ -166,7 +167,9 @@ def evaluate_criteria(description: str) -> Dict[str, Dict[str, str | int]]:
     ]
     moderate_density = [
         "moderate vegetation", "moderate density", "partial coverage", "moderate plant mass",
-        "moderate vegetation density", "moderate plant coverage", "the vegetation is moderately dense", "moderate to dense", "vegetation density is moderate"
+        "moderate vegetation density", "moderate plant coverage", "the vegetation is moderately dense", "moderate to dense", "vegetation density is moderate",
+        "vegetation is moderate", "moderate to dense vegetation", "moderate density of vegetation", "vegetation appears moderate"
+
     ]
     high_matched, high_negated = keyword_matches(high_density)
     mod_matched, mod_negated = keyword_matches(moderate_density)
