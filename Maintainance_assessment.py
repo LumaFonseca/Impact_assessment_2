@@ -24,7 +24,7 @@ synonym_map = {
 
     # Infrastructure
     "wooden bench": "bench", "benches": "bench", "log bench": "bench", "stone seat": "bench",
-    "seating island": "bench", "tree stump": "wood stumps", "wood stump": "wood stumps", "logs":"wood logs", "wood log": "wood log",
+    "seating island": "bench", "seating islands": "bench", "seating": "bench", "seat":"bench", "seating area": "bench", "seating areas":"bench", "tree stump": "wood stumps", "wood stump": "wood stumps", "logs":"wood logs", "wood log": "wood log",
     "picnic area": "picnic table", "picnic tables": "picnic table", "signpost": "educational sign",
     "sign": "educational sign", "signs": "educational sign", "educational signs": "educational sign",
     "biodiversity sign": "educational sign", "sign board": "educational sign", "info sign": "educational sign",
@@ -47,7 +47,7 @@ for syn, norm in synonym_map.items():
 
 # ----------------- Maintenance Weights -----------------
 maintenance_weights = {
-    "grass meadow": 1, "low-rise grass": 1, "wildflower meadow": 2, "shrub": 2, "tree": 2,
+    "grass meadow": 1, "low-rise grass": 1, "wildflower meadow": 2, "shrub": 2, "tree": 1, "tree cluster": 2, 
     "gravel path": 2, "open soil path": 2, "wood chip path": 2,
     "bench": 2, "wood stumps": 1, "wood logs": 1, "picnic table": 2,
     "educational sign": 3, "event plaque": 2, "bookshelf": 3,
